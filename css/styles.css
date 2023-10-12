@@ -1,14 +1,5 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #434455;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     color: #2E2F42;
 }
 
@@ -22,4 +13,63 @@ button {
 
 .link {
     text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.logo-span {
+    color: #4D5AE5;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+    width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-button {
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
