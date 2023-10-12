@@ -53,6 +53,8 @@ button {
 
 .contacts {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
@@ -127,6 +129,10 @@ button {
 
 .team-text {
     text-align: center;
+}
+
+.portfolio-title {
+    text-transform: capitalize;
 }
 
 
