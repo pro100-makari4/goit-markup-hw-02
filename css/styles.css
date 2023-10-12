@@ -1,6 +1,11 @@
 body {
     font-family: Roboto, sans-serif;
     color: #2E2F42;
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 button {
@@ -23,24 +28,23 @@ button {
     line-height: 1.167;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+    width: 110px;
+}
+
+.page-footer .logo {
+    color: #F4F4FD;
 }
 
 .logo-span {
     color: #4D5AE5;
 }
 
+
 .nav-item {
-    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .contacts-list {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
 }
@@ -55,21 +59,48 @@ button {
     letter-spacing: 0.02em;
 }
 
-.hero {
-    background-color: #2E2F42;
-}
-
 .hero-button {
     border-radius: 4px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 264px;
+    letter-spacing: 0.04em;
+}
+
+.about-text {
+    color: #434455;
+    width: 264px;
+}
+
+.team-element .about-title {
+    text-align: center;
+}
+
+.team-element .about-text {
+    color: #434455;
+    text-align: center;
+}
+
+.second-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.footer-text {
+    width: 264px;
+    color: #F4F4FD;
 }
