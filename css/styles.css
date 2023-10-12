@@ -99,6 +99,7 @@ button {
 .second-title {
     color: #2E2F42;
     text-align: center;
+    text-transform: capitalize;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -131,10 +132,9 @@ button {
     text-align: center;
 }
 
-.portfolio-title {
-    text-transform: capitalize;
+.team-list-item {
+    background-color: #ffffff;
 }
-
 
 /* ///Content */
 
